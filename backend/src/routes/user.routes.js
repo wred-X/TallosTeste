@@ -12,4 +12,7 @@ router.post('/login', userController.loginUser);
 // profile do 'User': (GET): localhost:3000/api/v1/userProfile
 router.get('/userProfile', auth, userController.returnUserProfile); 
 
+//Deletar user: (DELETE): localhost:3000/api/v1/userProfile
+//router.delete('/userDelete', auth, userController.returnUserDelete);
+
 module.exports = router

@@ -1,4 +1,5 @@
 const { token } = require('morgan');
+const { db } = require('../models/user.model');
 const User = require('../models/user.model');
 
 // Usar Async e Await
@@ -46,3 +47,15 @@ exports.loginUser = async (req, res) => {
 exports.returnUserProfile = async (req, res) => {
   await res.json(req.userData);
 };
+
+/* exports.returnUserDelete = async (req, res) => {
+  try{
+    const user = await res.json(req.userData);
+    //TODO SCHEMA .Delete
+    res.status(201).json({ message: 'Usuário(a) deletado com sucesso!'});
+    } catch (err) {
+      console.log("deu ruim:",err);
+      res.status(400).json({err: err})
+    }
+
+}; */

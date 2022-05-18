@@ -5,7 +5,8 @@
 </template>
 
 <script>
-import register from '@/components/auth-components/register/registerComponent.vue';
+import register from '@/components/auth/register/registerComponent.vue';
+
 export default {
   components: {
     register,

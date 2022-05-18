@@ -1,6 +1,6 @@
 import swal from 'sweetalert';
 import { minLength, required } from 'vuelidate/lib/validators';
-import RegisterService from '@/services/RegisterService';
+import RegisterService from '../../../services/RegisterService';
 
 export default {
   name: 'registerComponent',

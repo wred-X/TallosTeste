@@ -5,7 +5,8 @@
 </template>
 
 <script>
-import home from '@/components/auth-components/home/homeComponent.vue';
+import home from '@/components/auth/home/homeComponent.vue';
+
 export default {
   components: {
     home,

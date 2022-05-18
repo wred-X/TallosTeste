@@ -1,6 +1,6 @@
 import swal from 'sweetalert';
 import { required } from 'vuelidate/lib/validators';
-import LoginService from '@/services/LoginService';
+import LoginService from '../../../services/LoginService';
 
 export default {
   name: 'loginComponent',

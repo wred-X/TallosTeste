@@ -4,10 +4,7 @@
       <div class="container">
         <a class="navbar-brand">JWT + Node + Vue</a>
 
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" @click="logOutUser">Log Out</a>
